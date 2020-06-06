@@ -11,7 +11,7 @@ TODO: Trades
 | Returns | Verb | URI | Description|
 |---------|------|-----|------------|
 | List&lt;Trades%gt; | GET | api/trades| Retrieve List of Trades|
-|Giraffe | GET | api/trades/{tradeid} | Retrieve one trade by id |
+|Trade | GET | api/trades/{tradeid} | Retrieve one trade by id |
 
 ## Technologies Used
 * MySQL, MySQL Workbench
