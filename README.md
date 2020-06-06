@@ -10,7 +10,7 @@ TODO: Trades
 
 | Returns | Verb | URI | Description|
 |---------|------|-----|------------|
-| List&lt;Trade%gt; | GET | api/trades| Retrieve List of Trades|
+| List &lt;Trade&gt; | GET | api/trades| Retrieve List of Trades|
 |Trade | GET | api/trades/{tradeid} | Retrieve one trade by id |
 
 ## Technologies Used
