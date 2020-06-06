@@ -14,6 +14,10 @@ public class Trade {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	@Column(name = "reference_id")
 	private int referenceId;
 
