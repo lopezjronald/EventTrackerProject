@@ -12,6 +12,4 @@ public interface TradeRepository extends JpaRepository<Trade, Integer> {
 
 	Trade findByReferenceId(int id);
 	
-	List <Trade> findByUnderlying(Trade trade);
-	
 }
