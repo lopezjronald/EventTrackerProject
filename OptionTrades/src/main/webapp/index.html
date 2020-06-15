@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options Trading</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1>Options Trading</h1>
+
+<form name="tradeSearch">
+    <input type="number" name="tradeId">
+    <button name="lookup">Find Trade by ID</button>
+</form>
+
+<div id="tradeAggregate"></div>
+
+<h1>Add New Trade:</h1>
+<form name="newTrade">
+    <h3>
+        <label for="referenceId">Reference ID</label>
+        <input type="number" name="referenceId" placeholder="Reference ID">
+        <br><br>
+        <label for="tradeDate">Date of Trade</label>
+        <input type="text" name="tradeDate" placeholder="mm/dd/yyyy">
+        <br><br>
+        <label for="timeOfTrade">Time of Trade</label>
+        <input type="text" name="timeOfTrade" placeholder="Time of Trade">
+        <br><br>
+        <label for="underlying">Underlying</label>
+        <input type="text" name="underlying" placeholder="Underlying">
+        <br><br>
+        <label for="expirationDate">Expiration Date</label>
+        <input type="text" name="expirationDate" placeholder="Expiration Date">
+        <br><br>
+        <label for="strikePrice">Strike Price</label>
+        <input type="number" name="strikePrice" placeholder="Strike Price">
+        <br><br>
+        <label for="tradeType">Type of Trade</label>
+        <input type="text" name="tradeType" placeholder="Type of Trade">
+        <br><br>
+        <label for="openInterest">Open Interest</label>
+        <input type="number" name="openInterest" placeholder="Open Interest">
+        <br><br>
+        <label for="ind">Ind</label>
+        <input type="text" name="ind" placeholder="Ind">
+        <br><br>
+        <label for="exchangeCode">Exchange Code</label>
+        <input type="text" name="exchangeCode" placeholder="Exchange Code">
+        <br><br>
+        <label for="spread">Spread</label>
+        <input type="number" name="spread" placeholder="Spread">
+        <br><br>
+        <label for="premiumPrice">Premium Price</label>
+        <input type="number" name="premiumPrice" placeholder="Premium Price">
+        <br><br>
+        <label for="size">Size</label>
+        <input type="number" name="size" placeholder="Size">
+        <br><br>
+        <label for="bidSize">Bid Size</label>
+        <input type="number" name="bidSize" placeholder="Bid Size">
+        <br><br>
+        <label for="bidPrice">Bid Price</label>
+        <input type="number" name="bidPrice" placeholder="Bid Price">
+        <br><br>
+        <label for="askPrice">Ask Price</label>
+        <input type="number" name="askPrice" placeholder="Ask Price">
+        <br><br>
+        <label for="askSize">Ask Size</label>
+        <input type="number" name="askSize" placeholder="Ask Size">
+        <br><br>
+        <label for="edge">Edge</label>
+        <input type="text" name="edge" placeholder="Edge">
+        <br><br>
+        <label for="leanSize">Lean Size</label>
+        <input type="number" name="leanSize" placeholder="Lean Size">
+        <br><br>
+        <label for="sizeRatio">Size Ratio</label>
+        <input type="number" name="sizeRatio" placeholder="sizeRatio">
+        <br><br>
+        <label for="delta">Delta</label>
+        <input type="number" name="delta" placeholder="Delta">
+        <br><br>
+        <label for="theta">Theta</label>
+        <input type="number" name="theta" placeholder="Theta">
+        <br><br>
+        <label for="vega">Vega</label>
+        <input type="number" name="vega" placeholder="Vega">
+        <br><br>
+        <label for="gamma">Gamma</label>
+        <input type="number" name="gamma" placeholder="Gamma">
+        <br><br>
+        <label for="sigma">Sigma</label>
+        <input type="number" name="sigma" placeholder="Sigma">
+        <br><br>
+        <label for="rho">Rho</label>
+        <input type="number" name="rho" placeholder="Rho">
+        <br><br>
+    </h3>
+    <input type="submit" name="addTrade" value="Add Trade">
+</form>
+
+<table>
+
+</table>
+
+<h1>Results:</h1>
+<div id="tradeData"></div>
+<div id="output">
+    <div id="tradeEdit"></div>
+    <div id="ErrorData"></div>
+    <div id="tradeList"></div>
+    <div id="tradeDetails"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
